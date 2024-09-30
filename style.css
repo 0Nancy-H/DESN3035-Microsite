@@ -1,7 +1,10 @@
+.flex-container{
+ display: inline-flex;
+}
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
     width: 180px;
   }
   
@@ -18,3 +21,5 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
+
+ 
