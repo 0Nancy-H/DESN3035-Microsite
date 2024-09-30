@@ -1,5 +1,5 @@
-.flex-container{
- display: inline-flex;
+div.flex-container{
+display: flex;
 }
 
 div.gallery {
