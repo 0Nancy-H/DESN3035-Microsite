@@ -1,5 +1,44 @@
+/*stylesheet*/
+:root {
+  --primary-color: #143b41;
+  --h2-color: #bfd3bf;
+  --secondary-color: #e6db78;
+  --accent-color: #287a62;
+  --text-color: #631220;
+  --background-color: #F7E1D7;
+  --header-background: #B0C4B1;
+  --footer-background: #B0C4B1;
+  --footer-text-color: rgb(134, 58, 62);
+  --transition-duration: 0.5s;
+  --scale: 1;
+  --scale-hover: 1.1;
+}
+
+/*Type*/
+:root {
+  --font-size-base: 20px;
+  --font-size-heading: 30px;
+  --font-weight-regular: 300;
+  --font-weight-bold: 700;
+  --font-family: 'Poppins-regular', sans-serif;
+  --spacing-unit: 15px;
+
+}
+
+
+h1{
+  text-align: center;
+}
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
 div.flex-container{
 display: flex;
+justify-content:center 
 }
 
 div.gallery {
