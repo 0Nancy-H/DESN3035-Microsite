@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Poppins-regular';
+  src: url(Poppins-Regular.ttf);
+}
+
 /*stylesheet*/
 :root {
   --primary-color: #143b41;
