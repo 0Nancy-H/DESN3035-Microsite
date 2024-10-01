@@ -5,15 +5,14 @@
 
 /*stylesheet*/
 :root {
-  --primary-color: #143b41;
-  --h2-color: #bfd3bf;
+  --primary-color: #505a51;
+  --third-color: #bfd3bf;
   --secondary-color: #e6db78;
-  --accent-color: #287a62;
-  --text-color: #631220;
-  --background-color: #F7E1D7;
+  --text-color: #864747;
+  --background-color: #F0EFEB;
   --header-background: #B0C4B1;
   --footer-background: #B0C4B1;
-  --footer-text-color: rgb(134, 58, 62);
+  --footer-text-color: #353b35;
   --transition-duration: 0.5s;
   --scale: 1;
   --scale-hover: 1.1;
@@ -21,7 +20,7 @@
 
 /*Type*/
 :root {
-  --font-size-base: 20px;
+  --font-size-base: 15px;
   --font-size-heading: 30px;
   --font-weight-regular: 300;
   --font-weight-bold: 700;
@@ -29,6 +28,7 @@
   --spacing-unit: 40px;
 
 }
+
 
 header {
   display: flex;
@@ -60,19 +60,27 @@ h1 {
   text-align: center;
   font-family: var(--font-family);
   justify-content: center;
+  font-weight: var(--font-weight-bold);
+  color: var(--text-color);
+  font-size: 2.4em;
 
+}
+
+.main p{
+  font-size: 60px;
 }
 
 p {
   text-align: center;
   font-family: var(--font-family);
-
+  color: var(--primary-color);
 }
 
 h3 {
   text-align: center;
   font-family: var(--font-family);
-
+  color: var(--text-color);
+  font-weight: var(--font-weight-bold);
 }
 
 main {
@@ -81,6 +89,7 @@ main {
   padding: 1em;
   font-family: var(--font-family);
   text-align: justify;
+  background-color: var(--background-color);
 }
 
 div.flex-container {
@@ -95,7 +104,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 2px solid var(--text-color);
 }
 
 div.gallery img {
@@ -106,10 +115,18 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  background-color: var(--footer-background);
+  color: var(--text-color);
+  font-size: var(--font-size-base);
 }
 
 footer {
-  background-color: #287a62;
+  color: var(--footer-text-color);
+  background-color: var(--footer-background);
   font-family: var(--font-family);
   text-align: justify;
+  padding: 15px;
+  font-size: 0.8em;
 }
+
+
