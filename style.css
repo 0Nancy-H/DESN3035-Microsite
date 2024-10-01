@@ -92,6 +92,10 @@ main {
   background-color: var(--background-color);
 }
 
+body{
+  background-color: var(--background-color);
+}
+
 div.flex-container {
   display: flex;
   justify-content: center
