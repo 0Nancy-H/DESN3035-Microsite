@@ -80,7 +80,7 @@ h3 {
 main {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 5em;
+  padding: 1em;
   font-family: var(--font-family);
   text-align: justify;
   background-color: var(--background-color);

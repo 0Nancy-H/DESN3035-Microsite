@@ -62,8 +62,7 @@ h1 {
   justify-content: center;
   font-weight: var(--font-weight-bold);
   color: var(--text-color);
-  font-size: 2.4em;
-
+  font-size: 1.6em;
 }
 
 .main p{
