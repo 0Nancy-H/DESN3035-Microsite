@@ -38,6 +38,22 @@ header {
   font-family: var(--font-family);
 }
 
+.navbar a{
+  padding: 9px;
+}
+
+.navbar a.active {
+  background-color: #e4d4a2;
+  color: rgb(58, 48, 48);
+  border-radius: 10px;
+}
+
+.navbar a:hover {
+  background-color: var(--primary-color);
+  color: var(--footer-background);
+  border-radius: 10px;
+}
+
 .logo img {
   width: 50px;
 }
